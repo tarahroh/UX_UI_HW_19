@@ -20,6 +20,9 @@ header{
     align-items:flex-end;
     flex-direction: column;
 }
+#logo{
+    margin-top: 0rem;
+}
 
 .TopBar{
 Width:100%;
@@ -31,44 +34,56 @@ z-index: 1;
 align-self:flex-start;
 }
 nav {
-    margin:0 0 0 0;
-    padding:20px 140px 0 0;
+    border: 1px solid black;
+    margin:1rem 0 0 0;
     width:100%;
+    height:40rem;
+    display:flex;
     justify-content: left;
     align-items:flex-end;
-    display:flex;
 }
+ul{
+    margin:0;
+    height:2rem;
+    align-items: baseline;
+} 
+
 img{
-    width:140px;
+    width: 150px;;
   cursor: pointer;
-  clip-path: inset(0 0 9% 0);
   margin-right: auto;
 }
 
 .UxNavBar {
- /*   border: 1px solid black;*/
+    border: 1px solid black;
     height:40px;
-    transform: translate(0,10px);
-    margin: 0 0 0 0;
+    margin: 4rem 0 0 0;
     font-family: 'Montserrat', sans-serif;
     Font-size: 16px;
-    padding: 0 12px 0px 0;
+    padding: 0 12px 10px 0;
     cursor: pointer;
+    text-decoration: none;
+    color:#2f2f2f;
 }
 
-.UxNavBar:hover{
-    background-image: url(../Images/ActivatedUnderline.png);
-    background-clip:padding-box;
-    background-position:bottom center;
-    background-repeat: no-repeat;
-    transition:300ms ease-in;
+.UxNavBar:hover {
+    border: 1px solid black;
+    height:40px;
+    margin: 4rem 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    Font-size: 16px;
+    padding: 0 12px 10px 0;
+    cursor: pointer;
+    text-decoration: none;
+    color:#2f2f2f;
 }
 
 .Industrialarrow {
     margin:0;
-    padding: 0 0 14.5px 0;
+    padding: 0 0 0 0;
     width:20px;
     cursor: pointer;
+    align-self: flex-end;
 
 }
 .HeroPage{
