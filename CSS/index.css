@@ -52,7 +52,9 @@ border-top:15px solid rgba(53,59,64,1) ;
 /*.wholepage{
     display:none;
 }*/
-
+p{font-family: 'Montserrat', sans-serif;
+    Font-size: 16px;} 
+    
 .TopBar{
 Width:100%;
 position:absolute;
@@ -186,12 +188,12 @@ h2{
     margin: 0 0 0 0;
     padding: 6rem 0 0 0;
 }
-h4 { 
+h4, label { 
     font-family: 'Montserrat', sans-serif;
     Font-size: 1.625rem;
     font-weight:bold;
     color: #4F758C; 
-    padding: 2rem 0 8.1px 0 
+    padding: 2rem 0 8.1px 0; 
 }
 .chat{
     margin:9rem 0 5rem 0;
@@ -219,12 +221,82 @@ button{
     font-size: 14px;
     cursor: pointer;
 }
+button:hover{
+    width:90%;
+    height: 90%;
+    display:block;
+    border:none;
+    Color: #fafafa;
+    background-color:#5f6973;
+    Padding: 5.5px 14px;
+    border-radius:18px;
+    font-size: 14px;
+    cursor: pointer;
+}
 
-button:hover {
+button:Active {
     background-color: #fafafa;
     color:#5f6973;
     border: 2px solid #6D96A6;
     transition:ease-in-out 300ms 300ms
+}
+
+#resumeButton:hover{
+    width:90%;
+    height: 90%;
+    display:block;
+    border:none;
+    Color:white;
+    background-color:#5f6973;
+    Padding: 5.5px 14px;
+    border-radius:18px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.modal_background{
+    position: fixed;
+    width:100%;
+    height:100vh;
+    display:flex; 
+    margin:0;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(95, 105, 115, 0.56);
+    visibility: hidden;
+    z-index: 1;
+    opacity:0;
+    transition: visibility 0s, opacity 0.5s; 
+}
+.modal{
+    background-color:white; 
+    width:45%;
+    height: 40%;
+    border-radius: 18px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+    text-align: center;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 3rem;}
+.background_active{
+    visibility: visible;
+    opacity: 1;
+}
+.close{
+    width:8%;
+    display:block;
+    align-self: flex-end;
+    margin-top: -1.5rem
+}
+.close:hover{
+    width:8%;
+    height:15%;
+    display:block;
+    align-self: flex-end;
+    margin-top: -1.5rem
 }
 aside {
     width:45%;
@@ -314,7 +386,6 @@ hr {border:none;
     Font-size: 10px;
     font-weight:normal;
     letter-spacing: 0.26px;
-    margin: 1% 0 0 8.5%;
 }
 #update{
     font-family: 'SFProText', sans-serif;
