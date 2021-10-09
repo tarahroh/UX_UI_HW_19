@@ -64,6 +64,7 @@ img{
     cursor: pointer;
     text-decoration: none;
     color:#2f2f2f;
+    background-image:url("underline.png");
 }
 
 .UxNavBar:hover {
@@ -76,6 +77,7 @@ img{
     cursor: pointer;
     text-decoration: none;
     color:#2f2f2f;
+    background-image:url("underline.png");
 }
 
 .Industrialarrow {
