@@ -1,6 +1,4 @@
 
-/*Please note particular parts in the redling have been over calculated and restricted certian movement. This means in appearance it is the same but the pixel values may have had to be changed ever so slightly. for the purposes of the website screen visability structure*/
-
 * {
     box-sizing:border-box;
     padding:0;
@@ -20,7 +18,40 @@ header{
     align-items:flex-end;
     flex-direction: column;
 }
+/*.loader
+{
+   height: 100vh;
+   overflow: hidden;
+   background: linear-gradient(0deg, rgba(79,117,140,1) 0%, rgba(255,255,255,1) 32%);
+   position: relative;
+   display:flex;
+   justify-content: center;
+   margin:0;
 
+}
+
+.loader>div { 
+    height: 100px;
+    width:100px;
+    border:15px solid rgb(79,117,140);
+border-top:15px solid rgba(53,59,64,1) ;
+    position:absolute; 
+    margin:auto;
+    align-self:center;
+    border-radius: 50%;
+    animation:spin 1.5s infinite linear;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    } 
+
+}
+*/
+
+/*.wholepage{
+    display:none;
+}*/
 
 .TopBar{
 Width:100%;

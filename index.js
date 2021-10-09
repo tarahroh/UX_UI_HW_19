@@ -1,4 +1,8 @@
 //test
 console.log("Your Index.js is loaded correctly")
 
-//Active button working for tabs that do not have a url link yet. 
+//loader
+$(window).on('load', function () {
+    $(".loader").fadeOut(1000);
+    $(".wholepage").fadein(1000);
+});
