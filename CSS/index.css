@@ -107,7 +107,8 @@ img{
     background-image:url("/Images/Cross\ out.png");
     background-repeat: no-repeat;
     background-size:3.8rem;
-    background-position: bottom left;}
+    background-position: bottom left;
+z-index: 100000;}
 
 .UxNavBar {
 
