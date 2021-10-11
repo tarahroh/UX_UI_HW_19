@@ -16,6 +16,8 @@ $(".modal_background").hide();
 if ($("#resumeButton").on("click", function () {
   $(".modal_background").show();
 }));
+
+else ($(".modal_background").hide());
 //modalclose
 //$(".modal").clickOutsideThisElement(function () {
 //});
