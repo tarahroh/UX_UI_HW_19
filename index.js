@@ -17,7 +17,10 @@ if ($("#resumeButton").on("click", function () {
   $(".modal_background").show();
 }));
 
-else ($(".modal_background").hide());
+$(".close").on("click", function () {
+  $(".modal_background").toggle()
+});
+
 //modalclose
 //$(".modal").clickOutsideThisElement(function () {
 //});
