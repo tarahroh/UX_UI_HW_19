@@ -13,7 +13,7 @@ $(window).on("load", function () {
 
 //modalopen
 $(".modal_background").hide();
-if ($(this).on("click", function () {
+if ($("#resumeButton").on("click", function () {
   $(".modal_background").show();
 }));
 //modalclose
