@@ -17,8 +17,8 @@ if ($(this).on("click", function () {
   $(".modal_background").show();
 }));
 //modalclose
-$(".modal").clickOutsideThisElement(function () {
-});
+//$(".modal").clickOutsideThisElement(function () {
+//});
 //skills examples open
 $("#A").on("click", function () { $(".XD").slideToggle(); });
 $("#B").on("click", function () { $(".figma").slideToggle(); });
